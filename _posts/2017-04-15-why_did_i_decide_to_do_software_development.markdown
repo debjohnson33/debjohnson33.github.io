@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why did I decide to do software development?"
-date:   2017-04-15 14:24:45 +0000
+date:   2017-04-15 10:24:46 -0400
 ---
 
 
@@ -9,4 +9,4 @@ I have been programming on and off for about 30 years now. I remember using my m
 
 I like the idea of being able to tell the computer to do something, using the right language, and it does it. It is similar to my hobby of knitting in that you get a pattern and repeat the same instructions over and over until you have a finished product and if you want something different, you change how you do certain parts of it. I like seeing the results of what I’ve worked on and being able to manipulate certain lines of code to have different results just like in my knitting projects.
 
-Programming has been in the back of my mind all along, so when I found Flatiron School’s Bootcamp Prep, I was excited about the possibilities. I was able to remember a lot of the JavaScript from learning it on Khan Academy in the last year, so I was done with a good chunk of it when I learned that I would be accepted to the Full Stack Web Development program. I also felt really honored that I would be chosen to receive a 50% scholarship through the Women Take Tech Initiative. I am highly motivated to make everyone proud of me by doing excellent work as I go through this program. Not just that, but I’m happy to get the skills necessary to get a job and be able to enjoy and be passionate about what I’m doing.
+Programming has been in the back of my mind all along, so when I found Flatiron School’s Bootcamp Prep, I was excited about the possibilities. I was able to remember a lot of the JavaScript from learning it on Khan Academy in the last year, so I was done with a good chunk of it when I learned that I would be accepted to the Full Stack Web Development program. I also felt really honored that I would be chosen to receive a 50% scholarship through the Women Take Tech Initiative. I am highly motivated to make everyone proud of me by doing excellent work as I go through this program. Not just that, but I’m happy to get the skills necessary to get a job and be able to enjoy and be passionate about what I’m doing.  
