@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sinatra Content Management System Project"
-date:   2017-06-12 18:27:36 +0000
+date:   2017-06-12 14:27:37 -0400
 ---
 
 
@@ -15,6 +15,6 @@ A few things that I learned during this process are:
 
 3. If you want to add a CSS stylesheet to your project, you’ll need to add a public folder for it to go in or Sinatra will NOT acknowledge that it’s there. Or, you can specify a different location by setting it in your Application Controller. The websites below helped me understand this so I could add some color and a little bit of formatting to my layout.
 
-https://medium.com/@kerenlerner/how-to-include-images-css-and-or-javascript-in-your-sinatra-web-application-45e2ebbfa75fhttps://medium.com/@kerenlerner/how-to-include-images-css-and-or-javascript-in-your-sinatra-web-application-45e2ebbfa75f
+https://medium.com/@kerenlerner/how-to-include-images-css-and-or-javascript-in-your-sinatra-web-application-45e2ebbfa75f
 
-https://www.davidwparker.com/2009/11/13/sinatra-base-static-file-issue/https://www.davidwparker.com/2009/11/13/sinatra-base-static-file-issue/
+https://www.davidwparker.com/2009/11/13/sinatra-base-static-file-issue/
