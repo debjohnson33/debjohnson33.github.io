@@ -1,21 +1,6 @@
-# Site settings
-title: Adventures in Learning to Code
-header-img: img/home-bg.png
-email: debjohnson_11@yahoo.com
-copyright_name: debjohnson33
-description: > # this means to ignore newlines until "baseurl:"
-  Coding with Deb
-baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: debjohnson33
-github_username:  debjohnson33
-learn_profile: debjohnson33
-email_username: debjohnson_11@yahoo.com
+baseurl: ""
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+paginate_path: blog/page:num
 
-gems: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-paginate, jekyll-feed]

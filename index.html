@@ -1,36 +1,204 @@
----
-layout: page
----
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Deb Johnson Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    {{ post.excerpt }}
-    <p class="post-meta">Posted by {% if site.author %}{{ site.author }}{% else %}{{ site.github_username }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
-{% endfor %}
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Deb Johnson</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="/blog/index.html">Blog</a></li>
+								<li><a href="/education.html">Education</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"><span class="icon fa-file-code-o"></span></div>
+							<h2>Deb Johnson</h2>
+							<p>Web Developer</p>
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="https://www.linkedin.com/in/deborah-r-johnson/" class="image"><img src="images/Deb.jpeg" alt="Deb Johnson" /></a>
+									<div class="content">
+										<h2 class="major">About Me</h2>
+										<p>Previous Air Force Medical Assistant trained to be a Full Stack Web Developer at Flatiron School. I have a passion for learning problem-solving. I have experience in Ruby on Rails and JavaScript-based programming and a background in the medical field. Exposure as a pre-teen to programming, education in Computer Information Systems, and increasing systems use in patient care led to an interest in web development. I bring strong skills in problem solving and teamwork that help companies build web applications to improve the way we live. I'm excited for challenging work, continuous growth, and learning more programming languages and techniques through individual and team projects. Currently, I work part-time as an adjunct instructor for a college online teaching medical terminology as a foundation course for students going into medical fields. I have also signed up with socialcoder.org to get experience programming on a team while looking for a job.</p>
+										<a href="https://www.linkedin.com/in/deborah-r-johnson/" class="special">Learn more on LinkedIn</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/medicalpic.jpg" alt="" /></a>
+
+									<div class="content">
+										<h2 class="major">Work Experience</h2>
+										<h3>Online Adjunct Instructor - Cowley College - 2013 – Present</h3>
+										<p>Teaching Medical Terminology as a foundation class for students entering the medical profession. Implemented innovative communication by incorporating Remind messaging service to keep students up to date.</p>
+										<h3>Positions at US Air Force McConnell AFB Clinic, Kansas:</h3>
+										<h3>Education and Training Manager - Sep 2013 - Feb 2015</h3>
+										<p>Coordinated the Basic Life Support Program for 250+ clinic employees ensuring compliance with regulations. Taught Basic Life Support courses, Instructor courses, and instructed students in Emergency Medical Technician courses ensuring base-wide availability of instructors and trained medical response personnel.</p>
+										<h3>Family Health Clinic Team D Manager - Oct 2012 - Sep 2013</h3>
+										<p>Developed individualized training plans by certifying the performance of 295 tasks for new employees, which increased trained staff by 40%. Provided administrative and paraprofessional medical support to medical providers while supervising medical assistants.</p>
+										<h3>Manager, Preventive Health Assessment Clinic - Feb 2012 - Oct 2012</h3>
+										<p>Directed employees in scheduling and conducting appointments for military members, resulting in an 87% "medically ready to deploy rate" for the base.</p>
+										<h3>Manager, Medical Services Department - Mar 2009 - Feb 2012</h3>
+										<p> Oversaw, assessed, planned and evaluated daily aministrative and patient care activities; customer service satisfaction rated consistently above 90% for four clinics. Provided guidance and supervision of assigned staff.</p>
+										
+									</div>
+								</div>
+							</section>
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#" class="image"><img id="book" src="images/TextBook.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major tech">Technologies</h2>
+										<p class="tech">Through my time with Flatiron School and now other learning sites I continue to learn:</p>
+										<ul class="tech-list">
+											<li>Ruby</li>
+											<li>HTML5</li>
+											<li>CSS</li>
+											<li>SASS</li>
+											<li>JavaScript</li>
+											<li>Rails</li>
+											<li>React</li>
+											<li>Node</li>
+											<li>Git</li>
+											<li>PostgreSQL</li>
+											<li>Bootstrap</li>
+											<li>Heroku</li>
+										</ul>
+										</ul>
+									</div>
+								</div>
+							</section> 
+
+						<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">Projects</h2>
+									<p>Projects I've worked on so far:</p>
+									<section class="features">
+										<article>
+											<a href="https://medications-app.herokuapp.com/" class="image"><img src="images/medicationsApp.png" alt="" /></a>
+											<h3 class="major">Medications App</h3>
+											<p>This Rails project with React/Redux displays a list of medications and allows the user to read medication information and submit a review which includes a rating and a comment. To see the app on heroku, click below on learn more.</p>
+											<a href="https://medications-app.herokuapp.com/" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="https://farm-tracker-jquery.herokuapp.com/" class="image"><img src="images/farmTrackerJQuery.png" alt="" /></a>
+											<h3 class="major">Farm Tracker with jQuery</h3>
+											<p>Welcome to the Farm Tracker with jQuery! Users can add a farm (or more than one) with different areas and then add animals. If your female animal is pregnant, you can also document that with the "bred date" and "estimated due date."</p>
+											<a href="https://farm-tracker-jquery.herokuapp.com/" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="https://farm-tracker.herokuapp.com/" class="image"><img src="images/farmTracker.png" alt="" /></a>
+											<h3 class="major">Farm Tracker</h3>
+											<p>Welcome to the Farm Tracker! Users can add a farm (or more than one) with different areas and then add animals. If your female animal is pregnant, you can also document that with the "bred date" and "estimated due date." To see the app on heroku click below on Learn more (Email: test@email.com Password: password).</p>
+											<a href="https://farm-tracker.herokuapp.com/" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="https://sinatra-parts-cms.herokuapp.com/" class="image"><img src="images/partsCMS.png" alt="" /></a>
+											<h3 class="major">Parts Content Management System</h3>
+											<p>This Sinatra app allows a user to sign up and keep track of the parts they have in stock. It is built in a generic way so each user can have different types of parts; i.e. one user with auto parts and another user with small engine parts. To see it on heroku click below on Learn more (Username: Test Password: Test).</p>
+											<a href="https://sinatra-parts-cms.herokuapp.com/" class="special">Learn more</a>
+										</article>
+									</section>
+<!-- 									<ul class="actions">
+										<li><a href="#" class="button">Browse All</a></li>
+									</ul> -->
+								</div>
+							</section>
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p></p>
+							<form method="post" action="https://formspree.io/friendswithdrj@gmail.com">
+								<div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								</div>
+								<div class="field">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="4"></textarea>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="fa-home">
+									Deb Johnson<br />
+									37 Water Ave<br />
+									Pickensville, AL 35447-4048
+								</li>
+								<li class="fa-phone">(205) 399-1829</li>
+								<li class="fa-envelope"><a href="mailto:friendswithdrj@gmail.com">friendswithdrj@gmail.com</a></li>
+								<li class="fa-twitter"><a href="https://twitter.com/debjohnson33">twitter.com/@debjohnson33</a></li>
+								<li class="fa-facebook"><a href="https://www.facebook.com/debjohnson31">facebook.com/debjohnson31</a></li>
+								<li class="fa-github"><a href="https://github.com/debjohnson33">github.com/debjohnson33</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Deb Johnson 2018. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/js/skel.min.js"></script>
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/jquery.scrollex.min.js"></script>
+			<script src="/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/js/main.js"></script>
+
+	</body>
+</html>
