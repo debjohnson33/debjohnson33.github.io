@@ -34,6 +34,10 @@
 		list-style: none;
 	}
 
+	ul#about-me-list {
+		list-style: disc;
+	}
+
 	blockquote, q {
 		quotes: none;
 	}
