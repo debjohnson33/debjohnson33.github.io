@@ -38,6 +38,10 @@
 		list-style: disc;
 	}
 
+	.major li {
+		list-style: disc;
+	}
+
 	blockquote, q {
 		quotes: none;
 	}
