@@ -34,7 +34,7 @@
 		list-style: none;
 	}
 
-	ul#about-me-list {
+	#about-me-list li {
 		list-style: disc;
 	}
 
