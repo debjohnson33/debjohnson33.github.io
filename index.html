@@ -77,35 +77,61 @@
 								<div class="inner">
 									<h2 class="major">Projects</h2>
 									<p>Projects I've worked on so far:</p>
-									<section class="features">
+									<section class="features" id="projects">
 										<article>
 											<a href="https://github.com/debjohnson33/Hangman" class="image"><img src="images/hangman_game.png" alt="" width="20%" height="20%" /></a>
 												<h3 class="major">Hangman Game</h3>
 												<p>This game is a word guessing game just like the one you played as a kid. Each wrong guess adds a body part to the stick figure. If you guess the word right, your score is saved in the database. Built with React on the front end and Node/Express on the back end with words persisted on a PostgreSQL database.</p>
+												<ul>
+													<li>Designed and developed a full stack game that persists the user’s highest score with PostgreSQL</li>
+													<li>Integrated React Portals as modals triggered by end of word/‘full’ hangman picture to allow user to quit/go to next word</li>
+													<li>Created/drew hangman images and applied CSS Modules styling to present an aesthetically pleasing UI and fun UX </li>
+												</ul>
 												<a href="https://github.com/debjohnson33/Hangman" class="special">Learn more</a>
 										</article>
 										<article>
 											<a href="https://github.com/BearTNT-Backend/Related-Listings" class="image"><img src="images/BearTNT.png" alt="" /></a>
 											<h3 class="major">Related Listings Microservice Back End Scaling</h3>
 											<p>This microservice is part of a team project to take an online rental property webpage inherited from another team and scale it up to take increased web traffic while each microservice database holds 10M+ records to be queried. Built with React on the front end and Node/Express on the back end with data persistence through MySQL. Most of the work was on the back end as well as deploying separate server and database instances to AWS EC2 t2.micro instances.</p>
+											<ul>
+												<li>Inherited legacy code base/refactored to scale for web traffic with limit of AWS EC2 t2.micro instances RAM/memory</li>
+												<li>Enhanced 2 services with compression/NGINX load balancer decreasing response for 1000RPS from 2000ms to 28ms</li>
+												<li>Scaled MySQL to 10M+ records and strategically added indexing to tables decreasing query time to less than 10ms</li>
+											</ul>
 											<a href="https://github.com/BearTNT-Backend/Related-Listings" class="special">Learn more</a>
 										</article>
 										<article>
 											<a href="https://github.com/House-Bezos/Product-Description-Service" class="image"><img src="images/Product Description as of Nov 19.png" alt="" /></a>
 											<h3 class="major">Product Description Microservice</h3>
 											<p>This microservice is part of a team project to produce an e-commerce product webpage. Built with React on the front end and Node/Express on the back end with data produced by Faker.js and  data persistence through MongoDB.</p>
+											<ul>
+												<li>Dynamically rendered product info on click event using React/React hooks backed with MongoDB and RESTful API </li>
+												<li>Provided clean UI with no-conflict styling using CSS Modules for rendering of services on proxy server</li>
+												<li>Optimized AWS EC2 proxy server deployed with 4 microservices to achieve Google PageSpeed score of 89</li>
+											</ul>
 											<a href="https://github.com/House-Bezos/Product-Description-Service" class="special">Learn more</a>
 										</article>
 										<article>
 											<a href="https://medications-app.herokuapp.com/" class="image"><img src="images/medicationsApp.png" alt="" /></a>
 											<h3 class="major">Medications App</h3>
 											<p>This Rails project with React/Redux displays a list of medications and allows the user to read medication information and submit a review which includes a rating and a comment. To see the app on heroku, click below on learn more.</p>
+											<ul>
+												<li>Leveraged React with Redux to build a single page application that responds quickly to user requests</li>
+												<li>Used Rails as API for back-end persistence and rendering JSON objects</li>
+												<li>Applied RESTful routing using React Router to handle rendering of resources</li>
+												<li>Applied CSS skills to project for styling to include flexibility for different sized media screens</li>
+											</ul>
 											<a href="https://medications-app.herokuapp.com/" class="special">Learn more</a>
 										</article>
 										<article>
 											<a href="https://farm-tracker-jquery.herokuapp.com/" class="image"><img src="images/farmTrackerJQuery.png" alt="" /></a>
 											<h3 class="major">Farm Tracker with jQuery</h3>
 											<p>Welcome to the Farm Tracker with jQuery! Users can add a farm (or more than one) with different areas and then add animals. If your female animal is pregnant, you can also document that with the "bred date" and "estimated due date."</p>
+											<ul>
+												<li>Used Ruby on Rails with Devise for user login/authentication and OmniAuth using Facebook for a second type of login</li>
+												<li>Added jQuery and Active Model Serialization JSON back-end to render responses to user requests without a refresh</li>
+												<li>Translated JSON responses into JavaScript model objects allowing use of prototype methods for rendering</li>
+											</ul>
 											<a href="https://farm-tracker-jquery.herokuapp.com/" class="special">Learn more</a>
 										</article>
 										<article>
@@ -118,6 +144,10 @@
 											<a href="https://sinatra-parts-cms.herokuapp.com/" class="image"><img src="images/partsCMS.png" alt="" /></a>
 											<h3 class="major">Parts Content Management System</h3>
 											<p>This Sinatra app allows a user to sign up and keep track of the parts they have in stock. It is built in a generic way so each user can have different types of parts; i.e. one user with auto parts and another user with small engine parts. To see it on heroku click below on Learn more (Username: Test Password: Test).</p>
+											<ul>
+												<li>Built in Sinatra DSL using MVC pattern with ActiveRecord and SQLite3 database (​PostgreSQL​ for Heroku)</li>
+												<li>Gave full Create Read Update Delete (CRUD) ability to allow user full inventory control</li>
+											</ul>
 											<a href="https://sinatra-parts-cms.herokuapp.com/" class="special">Learn more</a>
 										</article>
 										<article>
@@ -170,25 +200,29 @@
 
 								<div class="content" id="work">
 									<h2 class="major">Work Experience</h2>
-									<h3>Remote Skills Test Reviewer/Editor (Contractor) - IKM TeckChek          6/18 – Present</h3>
+									<h3>Remote Skills Test Reviewer/Editor (Contractor)</h3>
+									<h3>IKM TeckChek (6/18 – Present)</h3>
 									<p>Subject matter expert. Responsible for creating and writing original assessment questions for any new assessment section. Reviews and edits questions as needed with attention to detail. Revises any returned questions according to feedback.</p>
 									<ul>
 										<li>Reviewed HTML5/CSS3 assessment for accuracy; updated questions using the latest HTML5/CSS3 information; assessment ready for use in contract specifications</li>
 										<li>Reviewed Object-Oriented Programming (OOP) assessment for accuracy; updated questions using the latest OOP information; assessment ready in contract specifications</li>
 									</ul>
-									<h3>Online Adjunct Instructor - Cowley County Community College                     8/13 – Present</h3>
+									<h3>Online Adjunct Instructor</h3>
+									<h3>Cowley County Community College (8/13 – Present)</h3>
 									<p>Teaching medical terminology as a foundation class for students entering the medical profession. Responsible for selecting and compiling tests, assignments, and online discussion exercises that permit measurement of performance relative to standardized learning objectives. Develops clear learning objectives for each section and/or chapter of the course adhering to the Quality Matters Rubric and Standards. Implemented innovative communication by incorporating Remind messaging service to keep students up to date.</p>
 									<ul>
 										<li>Taught 25 students per semester ensuring future medical professional’s understanding of medical terminology concepts</li>
 										<li>Moderated weekly discussions providing guidance/feedback and driving average student course grades of 87%</li>
 									</ul>
-									<h3>Remote Software Engineer (Contractor) - Boomer Digital                                     7/18 – 9/18</h3>
+									<h3>Remote Software Engineer (Contractor)</h3>
+									<h3>Boomer Digital (7/18 – 9/18)</h3>
 									<p>As a junior software developer, worked on a development team writing and maintaining code for computer applications. Learned the codebase, worked on small bug fixes, and participated in paired programming with mid-level and senior developers. Attended and contributed to development team meetings, troubleshooting, and collaborating with other developers to create applications.</p>
 									<ul>
 										<li>Leveraged IBM Watson Assistant combined with Discovery Services along with the accompanying APIs to build a shopping chatbot</li>
 										<li>Deployed shopping chatbot for use with Slack allowing users to shop from an online catalog of items loaded into the IBM Discovery Service from a Ruby on Rails API</li>
 									</ul>
-									<h3>Education and Training Manager - McConnell Air Force Base (AFB) Clinic, KS    9/13 – 2/15</h3>
+									<h3>Education and Training Manager</h3>
+									<h3>McConnell Air Force Base (AFB) Clinic, KS (9/13 – 2/15)</h3>
 									<p>Implemented training programs and courses, provided management and leadership instruction, procured and prepared areas to use during training. Basic Life Support (BLS) Training Site Administrator for McConnell AFB. Maintained current American Heart Association (AHA) training materials for courses and ensured that course participants had the most current course materials for use before, during and after the course. Conducted instructor courses and updated instructors with the latest information. Offered courses to all eligible personnel. Recruited an adequate number of instructors to meet the needs of customers. Provided an adequate number of courses each year to allow the opportunity for instructors to maintain/renew their instructor status. Trained instructors in the proper use and care of equipment. Controlled and issued AHA course completion wallet cards.</p>
 									<ul>
 										<li>Verified new/renewing Instructor’s skills by site visits; attained 100% base instructor certifications</li>
@@ -196,21 +230,24 @@
 										<li>Coordinated the BLS Program for 250+ clinic employees ensuring compliance with regulations</li>
 										<li>Taught BLS courses, BLS Instructor courses, and Emergency Medical Technician courses</li>
 									</ul>
-									<h3>Family Health Clinic Team D Manager - McConnell AFB Clinic, KS                      10/12 – 9/13</h3>
+									<h3>Family Health Clinic Team D Manager</h3>
+									<h3>McConnell AFB Clinic, KS (10/12 – 9/13)</h3>
 									<p>Mentored and guided 5 Airmen medical assistants while providing administrative and paraprofessional medical support to 2 Team D medical providers and other Family Health Clinic medical providers. Delivered highest quality, evidence-based, patient-centered care to Team D enrolled patients through team-oriented processes, good access, high continuity, communications, prevention, education, and coordinated management of disease. Ensured operational readiness and operational health of military members.</p>
 									<ul>
 										<li>Performed patient care while managing team ops; key to 5K annual appointments and 98% patient satisfaction</li>
 										<li>Developed training plans/certified performance of 295 tasks for 2 new employees; expanded trained staff by 40% and maximized patient access to care</li>
 										<li>Identified performance improvement opportunity; developed medical assistant peer review; reduced documentation errors from 40% to 20%</li>
 									</ul>
-									<h3>Preventive Health Assessment (PHA) Clinic Manager - McConnell AFB Clinic, KS    2/12 – 10/12</h3>
+									<h3>Preventive Health Assessment (PHA) Clinic Manager</h3>
+									<h3>McConnell AFB Clinic, KS (2/12 – 10/12)</h3>
 									<p>Cultivated teamwork while implementing changes in Air Force policy for McConnell’s PHA Clinic and continuing to provide access to mandatory annual medical appointments/medical readiness updates. Reported compliance statistics to commanders. Improved compliance by arranging base orientation briefings and schedules for new military members.</p>
 									<ul>
 										<li>Coordinated/directed employees in scheduling/conducting appointments resulting in an 87% "medically ready to deploy rate" for the base; 5% > than Air Force standard</li>
 										<li>Provided training/evaluation/certification for 3 employees on new qualification tasks; enhanced access to appropriate age and medical condition screening for the base</li>
 										<li>Processed 160 new personnel; reconciled 800 discrepancies/updated database; PHAs improved to 99% current, #1 currency rate of 12 Air Mobility Command bases </li>
 									</ul>
-									<h3>Medical Services Department Manager - McConnell AFB Clinic, KS                     3/09 – 2/12</h3>
+									<h3>Medical Services Department Manager</h3>
+									<h3>McConnell AFB Clinic, KS (3/09 – 2/12)</h3>
 									<p>Oversaw, assessed, planned and evaluated daily administrative and patient care activities. Provided guidance and supervision of assigned staff. Mentored enlisted and junior officers.</p>
 									<ul>
 										<li>Directed 52 personnel for 34K appointments/12K enrollees and responsible for $462K clinic budget; customer service satisfaction rated consistently above 90% for four clinics</li>
