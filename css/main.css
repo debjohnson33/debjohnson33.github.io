@@ -46,6 +46,15 @@
 		list-style: disc;
 	}
 
+	#work h3 {
+		margin-bottom: 1px;
+	}
+
+	#work p {
+		line-height: 1.25;
+		font-style: italic;
+	}
+
 	blockquote, q {
 		quotes: none;
 	}
