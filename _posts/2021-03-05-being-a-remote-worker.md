@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Being a Remote Worker (Before it was required)"
-date:       2021-12-15 09:50:48 +0000
+date:       2021-03-05 09:50:48 +0000
 ---
 
 During my time in the Air Force, I always had the threat of last-minute deployment to a foreign country at a moment’s notice. This is one of the many reasons why I intentionally sought out degree programs at universities that were provided online. Some might see this as an easy way to get a degree, but anyone who has taken an online course will tell you that this is not the case. For online courses, you have to be disciplined enough to incorporate reading, studying and discussion posting into your already packed day. This is especially hard if you are working long days already and would rather crash on the couch when you get home from work!
